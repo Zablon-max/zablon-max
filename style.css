@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #111111;
+  color: #e0e0e0;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid #222222;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #888888;
+  margin-top: 10px;
+}
+
+section {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #cccccc;
+  margin-bottom: 24px;
+  border-left: 3px solid #555555;
+  padding-left: 12px;
+}
+
+.project-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+}
+
+.project-card:hover {
+  border-color: #555555;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.project-card a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #444444;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.project-card a:hover {
+  background: #333333;
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #444444;
+  font-size: 13px;
+  border-top: 1px solid #222222;
+  margin-top: 60px;
+}
