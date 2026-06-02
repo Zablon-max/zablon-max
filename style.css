@@ -90,3 +90,23 @@ footer {
   border-top: 1px solid #222222;
   margin-top: 60px;
 }
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  color: #cccccc;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.skill:hover {
+  border-color: #888888;
+  color: #ffffff;
+}
